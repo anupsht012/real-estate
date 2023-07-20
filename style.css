@@ -128,7 +128,7 @@ body {
   box-shadow: 2px 2px 4px 0px rgba(218, 218, 218, 0.25) !important;
 }
 
-.top-selling.card-title {
+.card-title {
   color: var(--black-2, #222);
 
   /* 24px/Medium/Karla */
@@ -138,7 +138,7 @@ body {
   font-weight: 500;
   line-height: 28px; /* 116.667% */
 }
-.top-selling .card-text {
+.card-text {
   color: var(--black-4, #646464);
 
   /* Paragraph spacing/16px/16ps */
@@ -195,6 +195,9 @@ body {
   background: #f6f8ff !important;
 }
 
-/* fourth section */
-.section4-floor-plan {
+/* fourth section floor plans */
+.arrows {
+  color: #222222 !important;
+  font-size: 24px;
+  font-weight: 700 !important;
 }
