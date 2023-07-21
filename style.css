@@ -201,3 +201,72 @@ body {
   font-size: 24px;
   font-weight: 700 !important;
 }
+
+/* card slider */
+
+.cardslider {
+  position: relative !important;
+}
+.cardslider .pre-btn {
+  font-size: 15px !important;
+  color: #111111 !important;
+  background-color: #ffffff !important;
+  padding: 10px;
+  text-align: center !important;
+  display: flex !important;
+  justify-content: center !important;
+  padding-top: -30px !important;
+  position: absolute !important;
+  top: 45%;
+  left: 0%;
+  z-index: 5;
+}
+.cardslider .next-btn {
+  color: #111111 !important;
+  font-size: 15px !important;
+  background-color: #ffffff !important;
+  padding: 10px;
+  text-align: center !important;
+  display: flex !important;
+  justify-content: center !important;
+  padding-top: -30px !important;
+  position: absolute !important;
+  top: 45%;
+  right: 0%;
+  z-index: 5;
+}
+
+/* talaw ko ho slide in hero */
+.cardbottomslider {
+  position: relative !important;
+}
+.cardbottomslider .pre-btn {
+  font-size: 15px !important;
+  color: #111111 !important;
+  background-color: #ffffff !important;
+  padding: 10px;
+  text-align: center !important;
+  display: flex !important;
+  justify-content: center !important;
+  padding-top: -30px !important;
+  position: absolute !important;
+  bottom: 5%;
+  right: 20%;
+  z-index: 5;
+  border-radius: 50%;
+}
+.cardbottomslider .next-btn {
+  color: #111111 !important;
+  font-size: 15px !important;
+  background-color: #ffffff !important;
+  padding: 10px;
+  text-align: center !important;
+  display: flex !important;
+  justify-content: center !important;
+  padding-top: -30px !important;
+  position: absolute !important;
+  bottom: 5%;
+  right: 10%;
+  z-index: 5;
+  border-radius: 50%;
+}
