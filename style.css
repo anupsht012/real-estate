@@ -7,7 +7,6 @@ body {
   font-family: sans-serif;
   background-color: hotpink;
   width: 100%;
-  height: 200vh;
 }
 /* top header */
 
@@ -251,7 +250,7 @@ body {
   padding-top: -30px !important;
   position: absolute !important;
   bottom: 5%;
-  right: 20%;
+  right: 16%;
   z-index: 5;
   border-radius: 50%;
 }
@@ -266,7 +265,40 @@ body {
   padding-top: -30px !important;
   position: absolute !important;
   bottom: 5%;
-  right: 10%;
+  right: 5%;
   z-index: 5;
   border-radius: 50%;
+}
+
+/* projct slider */
+
+.projectslider .pre-btn {
+  font-size: 15px !important;
+  color: #111111 !important;
+  background-color: #ffffff !important;
+  padding: 10px;
+  text-align: center !important;
+  display: flex !important;
+  justify-content: center !important;
+  padding-top: -30px !important;
+  position: absolute !important;
+  top: 5%;
+  right: 13%;
+  z-index: 5;
+  border-radius: 50% !important;
+}
+.projectslider .next-btn {
+  color: #111111 !important;
+  font-size: 15px !important;
+  background-color: #ffffff !important;
+  padding: 10px;
+  text-align: center !important;
+  display: flex !important;
+  justify-content: center !important;
+  padding-top: -30px !important;
+  position: absolute !important;
+  top: 5%;
+  right: 5%;
+  z-index: 5;
+  border-radius: 50% !important;
 }
