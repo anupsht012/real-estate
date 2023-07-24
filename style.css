@@ -6,7 +6,7 @@
 body {
   font-family: sans-serif;
   background-color: hotpink;
-  width: 100%;
+  overflow-x: hidden;
 }
 /* top header */
 
